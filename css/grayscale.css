@@ -14,7 +14,10 @@ html {
   width: 100%;
   height: 100%;
 }
-h1,
+h1 {
+  font-size: 48;
+  font-family: 'Mr Dafoe', cursive;
+}
 h2,
 h3,
 h4,
