@@ -8,6 +8,8 @@ body {
   background-color: black;
 }
 h1 {
+  margin: 0 0 0 0;
+  padding-bottom: 20px;
   font-size: 96;
   width: auto;
   font-family: 'Mr Dafoe', cursive;
@@ -63,8 +65,7 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 120px;
-  height: 100px;
+  font-size: calc(100% + 10vw);
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
@@ -81,7 +82,5 @@ section{
 }
 
 iframe {
-  width: 60%;
-  height: 60%;
-  padding: 50px;
+  padding-bottom: 50px;
 }
