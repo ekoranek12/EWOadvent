@@ -81,5 +81,7 @@ section{
 }
 
 iframe {
+  width: 60%;
+  height: 60%;
   padding: 50px;
 }
