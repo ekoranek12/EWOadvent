@@ -28,22 +28,44 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <ul class="topnav" id="myTopnav">
+  <li><h6><a href="#advent">Advent</a></h6></li>
+  <li><h6><a href="#playlist">Playlist</a></h6></li>
+  <li><h6><a href="#downloads">Downloads</a></h6></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+      x.className += " responsive";
+  } else {
+      x.className = "topnav";
+  }
+}
+</script>
+
 </head>
 
 <body id="page-top">
+
 <style>
 
 html,body { height: 100%; margin: 0px; padding: 0px; }
 #full { background: #0f0; height: 100% }
 
 </style>
-<header class="intro">
+<header class="intro" id="advent">
   <div class="intro-body">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1 class="brand-heading">Advent</h1>
-          <h6 class="intro-text">A Christmas devotional series by Josh Prather</h6>
+          <h6 style="padding-bottom: 35px;" class="intro-text">A Christmas devotional series by Josh Prather</h6>
           <a href="http://www.joshprather.com" class="btn btn-default btn-lg">Read the Blog</a>
         </div>
       </div>
@@ -51,7 +73,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
   </div>
 </header>
 
-<section class="playlist">
+<section class="playlist" id="playlist">
   <header class="intro">
     <div class="intro-body">
       <h1 class="brand-heading">Playlist</h1>
@@ -61,7 +83,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
   </header>
 </section>
 
-<section class="downloads">
+<section class="downloads" id="downloads">
   <header class="intro">
     <div class="intro-body">
       <div class="container">
