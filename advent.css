@@ -96,6 +96,10 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
+
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 2;
 }
 
 /* Float the list items side by side */
