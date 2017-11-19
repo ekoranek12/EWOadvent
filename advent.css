@@ -31,7 +31,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #42DCA3;
+  color: rgb(128, 39, 22);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -44,7 +44,7 @@ a:focus {
   text-decoration: none;
   font-weight: bold;
   color: white;
-  background-color: #42DCA3;
+  background-color:rgb(128, 39, 22);
   padding: 10px;
 }
 .intro {
@@ -121,7 +121,7 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-  background-color: #42DCA3;
+  background-color: rgb(128, 39, 22);
   color: rgba(0, 0, 0, 1);
 }
 
