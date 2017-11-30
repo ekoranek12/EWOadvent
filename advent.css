@@ -6,6 +6,7 @@ body {
   background-image: url(intro-bg.jpg);
   background-attachment: fixed;
   background-color: black;
+  background-size: cover;
 }
 h1 {
   margin: 0 0 0 0;
